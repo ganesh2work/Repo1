@@ -1,0 +1,13 @@
+<suite name="Suite-Listeners" parallel="none">
+
+    <listeners>
+        <listener class-name="Listener"></listener>
+    </listeners>
+
+    <test name="Batch-Listeners">
+        <classes>
+            <class name="TestCaseReader" />
+        </classes>
+    </test>
+
+</suite>
